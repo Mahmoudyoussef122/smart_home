@@ -18,4 +18,4 @@ u16 ADC_readChannel (u8 channel);                 //function to read data from s
 
 
 
-#endif /* MCAL_ADC_ADC_H_ */
+#endif 

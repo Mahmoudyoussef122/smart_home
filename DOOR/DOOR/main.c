@@ -18,7 +18,7 @@ int main ()
 	Set_GroupDir(PORT_C,0x0F);
 	Set_GroupLevel(PORT_C,0xF0);
 	LCD_Init ();
-	Display_Str_Row_Col(0,2,"Welcome Back ");
+	Display_Str_Row_Col(0,2," Welcome Back ");
 	_delay_ms(500);
 	Set_PinDir(PORT_D,Pin_0,OUTPUT);
 	while(1)
